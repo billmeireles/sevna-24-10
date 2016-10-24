@@ -31,9 +31,10 @@ Pipeline counter was: $GO_PIPELINE_COUNTER
 <div id="result"></div>
 <script>
   function calc(){
-        var x = document.getElementById("sale");
-        var y = "0.02";
-        var teste = x.value * y.value;
+        var x = parseFloat(document.getElementById("sale").value);
+        var y = 0.02;
+        var teste = x * y;
+        document.getElementById("result").innerHTML = "";
         document.getElementById("result").innerHTML = teste;
   }
 </script>
