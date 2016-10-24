@@ -24,6 +24,10 @@ Pipeline which created it: $GO_PIPELINE_NAME
 Pipeline counter was: $GO_PIPELINE_COUNTER
 ==== ==== ====
 </pre>
-<body>
+<br>
+<h2>Calcular comissao vendedor</h2>
+<input type="text" id="sale" value=""/>
+<input type="button" onClick="alert(document.getElementById('sale')*0.02)"  value="Calcular Comissao"/>
+</body>
 </html>
 EOF
