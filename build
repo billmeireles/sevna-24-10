@@ -27,7 +27,11 @@ Pipeline counter was: $GO_PIPELINE_COUNTER
 <br>
 <h2>Calcular comissao vendedor</h2>
 <input type="text" id="sale" value=""/>
-<input type="button" onClick="alert(document.getElementById('sale')*0.02)"  value="Calcular Comissao"/>
+<input type="button" onClick="alert(x.value * y.value)"  value="Calcular Comissao"/>
+<script>
+var x = document.getElementById("sale");
+var y = "0.02";
+</script>
 </body>
 </html>
 EOF
